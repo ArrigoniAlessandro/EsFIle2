@@ -15,7 +15,7 @@ echo "<table align=center>";
 for($i=0; $i<count(scandir($_POST['path'])); $i++){
 if(is_dir($_POST['path']."/".scandir($_POST['path'])[$i])){
 
-    echo "<tr><th>DIR <a href=ardizzone.pietro.tave.osdb.it/".$_POST['path']."/".scandir($_POST['path'])[$i].">".scandir($_POST['path'])[$i]."</a></th></tr>";
+    echo "<tr><th>DIR <a href=arrigoni.alessandro.tave.osdb.it/".$_POST['path']."/".scandir($_POST['path'])[$i].">".scandir($_POST['path'])[$i]."</a></th></tr>";
 
 }else{
       
